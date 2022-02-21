@@ -39,8 +39,8 @@ function divideString() {
 //Tests to see how it should work
 let testGes = 'Katze sitzt am Baum lala';
 let testSplit = 'sitzt';
+console.log(testGes.includes(testSplit)); // testet, ob Input2 vorhanden ist 
+
 console.log(testGes.indexOf(testSplit)); // Index-Start des 2. Inputs
 console.log('sitzt'.length); // Länge von Input 2
 console.log(testGes.substring(6, 6 + 5)); // gibt TestSplit aus
-
-console.log(testGes.includes(testSplit)); // testet, ob Input2 vorhanden ist 
