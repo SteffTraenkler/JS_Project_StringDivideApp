@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    place-content: center;
+}
+section{
+    width: 500px;
+    margin-top: 20%;
+    border: 1px solid black;
+    padding: 5%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+    display: block;
+}
+
+#submit{
+    width: 100px;
+}
+
+#wrapperArticle{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+input{
+    margin: 1% 0;
+}
+
+label:not(.radio){
+    font-weight: 900;
+}
+#submit{
+    height: 40px;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 500;
+}
