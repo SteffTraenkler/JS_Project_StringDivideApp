@@ -24,7 +24,7 @@ function divideString() {
         } else if (tA == true) {
             console.log('nach dem Wort checked');
             out1.innerHTML = iG.substring(0, i + l);
-            out2.innerHTML = iG.substring(i + l + 1);
+            out2.innerHTML = iG.substring(i + l);
         }
     } else {
         console.log('inputFalse');
